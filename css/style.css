@@ -3,7 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@media (max-width : 400px) {
+@media (max-width : 430px) {
     .mobile-screen{
         width: 95vw;
     }

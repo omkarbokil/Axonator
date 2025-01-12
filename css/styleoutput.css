@@ -588,6 +588,10 @@ video {
   left: -0.25rem;
 }
 
+.-left-\[120\%\]{
+  left: -120%;
+}
+
 .-right-1{
   right: -0.25rem;
 }
@@ -598,10 +602,6 @@ video {
 
 .left-3{
   left: 0.75rem;
-}
-
-.left-5{
-  left: 1.25rem;
 }
 
 .left-\[50\%\]{
@@ -644,32 +644,12 @@ video {
   top: 38%;
 }
 
-.top-\[4rem\]{
-  top: 4rem;
-}
-
-.top-\[50\%\]{
-  top: 50%;
-}
-
-.right-0{
-  right: 0px;
-}
-
 .top-\[3rem\]{
   top: 3rem;
 }
 
-.top-\[2rem\]{
-  top: 2rem;
-}
-
-.left-\[\]{
-  left: ;
-}
-
-.-left-\[120\%\]{
-  left: -120%;
+.top-\[50\%\]{
+  top: 50%;
 }
 
 .z-10{
@@ -727,10 +707,6 @@ video {
 
 .mt-5{
   margin-top: 1.25rem;
-}
-
-.mr-1{
-  margin-right: 0.25rem;
 }
 
 .block{
@@ -1000,11 +976,6 @@ video {
   border-color: rgb(210 210 210 / var(--tw-border-opacity, 1));
 }
 
-.border-neutral-400{
-  --tw-border-opacity: 1;
-  border-color: rgb(163 163 163 / var(--tw-border-opacity, 1));
-}
-
 .border-neutral-300{
   --tw-border-opacity: 1;
   border-color: rgb(212 212 212 / var(--tw-border-opacity, 1));
@@ -1044,8 +1015,8 @@ video {
   background-color: #F9F9F;
 }
 
-.bg-black\/15{
-  background-color: rgb(0 0 0 / 0.15);
+.bg-black\/10{
+  background-color: rgb(0 0 0 / 0.1);
 }
 
 .bg-red-500{
@@ -1056,10 +1027,6 @@ video {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
-}
-
-.bg-black\/10{
-  background-color: rgb(0 0 0 / 0.1);
 }
 
 .bg-gradient-to-b{
@@ -1159,9 +1126,9 @@ video {
   padding-bottom: 0.25rem;
 }
 
-.py-2{
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+.py-1\.5{
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
 }
 
 .py-4{
@@ -1172,11 +1139,6 @@ video {
 .py-\[6px\]{
   padding-top: 6px;
   padding-bottom: 6px;
-}
-
-.py-1\.5{
-  padding-top: 0.375rem;
-  padding-bottom: 0.375rem;
 }
 
 .pb-4{
@@ -1347,7 +1309,7 @@ video {
   transition-duration: 300ms;
 }
 
-@media (max-width : 400px) {
+@media (max-width : 430px) {
   .mobile-screen{
     width: 95vw;
   }
@@ -1432,16 +1394,12 @@ video {
 }
 
 @media (min-width: 640px){
-  .sm\:top-24{
-    top: 6rem;
-  }
-
-  .sm\:top-\[4rem\]{
-    top: 4rem;
-  }
-
   .sm\:left-5{
     left: 1.25rem;
+  }
+
+  .sm\:top-24{
+    top: 6rem;
   }
 
   .sm\:block{
