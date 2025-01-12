@@ -80,13 +80,13 @@ let formSettingCloseBtn = document.getElementById('formSettingCloseBtn');
 
 if(formSettingOption){
     formSettingOption.addEventListener('click', () => {
-        formSettings.classList.remove('-right-[120%]');
-        formSettings.classList.add('right-0');
+        formSettings.classList.toggle('-right-[120%]');
+        formSettings.classList.toggle('right-0');
     })
 
     formSettingCloseBtn.addEventListener('click', () => {
-        formSettings.classList.add('-right-[120%]');
-        formSettings.classList.remove('right-0');
+        formSettings.classList.toggle('-right-[120%]');
+        formSettings.classList.toggle('right-0');
     })
 }
 
