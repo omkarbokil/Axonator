@@ -3,6 +3,8 @@
 @tailwind components;
 @tailwind utilities;
 
-.mobile-screen{
-    background-color: red;
+@media (max-width : 400px) {
+    .mobile-screen{
+        width: 95vw;
+    }
 }

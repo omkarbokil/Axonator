@@ -764,16 +764,16 @@ video {
   min-height: 100vh;
 }
 
+.w-\[22rem\]{
+  width: 22rem;
+}
+
 .w-full{
   width: 100%;
 }
 
 .w-screen{
   width: 100vw;
-}
-
-.w-\[22rem\]{
-  width: 22rem;
 }
 
 .max-w-7{
@@ -1309,8 +1309,10 @@ video {
   transition-duration: 300ms;
 }
 
-.mobile-screen{
-  background-color: red;
+@media (max-width : 400px) {
+  .mobile-screen{
+    width: 95vw;
+  }
 }
 
 .\*\:cursor-pointer > *{
@@ -1402,10 +1404,6 @@ video {
 
   .sm\:hidden{
     display: none;
-  }
-
-  .sm\:w-\[22rem\]{
-    width: 22rem;
   }
 }
 
