@@ -1309,7 +1309,7 @@ video {
   transition-duration: 300ms;
 }
 
-@media (max-width : 440px) {
+@media (max-width : 400px) {
   .mobile-screen{
     width: 95vw;
   }
