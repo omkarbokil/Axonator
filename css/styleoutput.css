@@ -592,8 +592,8 @@ video {
   right: -0.25rem;
 }
 
-.-right-\[100\%\]{
-  right: -100%;
+.-right-\[120\%\]{
+  right: -120%;
 }
 
 .left-3{
@@ -652,14 +652,6 @@ video {
   top: 50%;
 }
 
-.right-0{
-  right: 0px;
-}
-
-.-right-\[120\%\]{
-  right: -120%;
-}
-
 .z-10{
   z-index: 10;
 }
@@ -683,6 +675,10 @@ video {
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
+}
+
+.mb-4{
+  margin-bottom: 1rem;
 }
 
 .mr-2{
@@ -711,14 +707,6 @@ video {
 
 .mt-5{
   margin-top: 1.25rem;
-}
-
-.mb-3{
-  margin-bottom: 0.75rem;
-}
-
-.mb-4{
-  margin-bottom: 1rem;
 }
 
 .block{
@@ -788,28 +776,8 @@ video {
   width: 22rem;
 }
 
-.w-\[\]{
-  width: ;
-}
-
-.w-\[20rem\]{
-  width: 20rem;
-}
-
-.w-\[21rem\]{
-  width: 21rem;
-}
-
-.min-w-\[22rem\]{
-  min-width: 22rem;
-}
-
 .max-w-7{
   max-width: 1.75rem;
-}
-
-.max-w-\[22rem\]{
-  max-width: 22rem;
 }
 
 .-translate-x-\[50\%\]{
@@ -1049,11 +1017,6 @@ video {
 
 .bg-black\/15{
   background-color: rgb(0 0 0 / 0.15);
-}
-
-.bg-red-400{
-  --tw-bg-opacity: 1;
-  background-color: rgb(248 113 113 / var(--tw-bg-opacity, 1));
 }
 
 .bg-red-500{
@@ -1344,6 +1307,10 @@ video {
 
 .duration-300{
   transition-duration: 300ms;
+}
+
+.mobile-screen{
+  background-color: red;
 }
 
 .\*\:cursor-pointer > *{
