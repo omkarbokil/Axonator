@@ -997,6 +997,11 @@ video {
   border-color: rgb(163 163 163 / var(--tw-border-opacity, 1));
 }
 
+.border-neutral-300{
+  --tw-border-opacity: 1;
+  border-color: rgb(212 212 212 / var(--tw-border-opacity, 1));
+}
+
 .border-b-\[\#6147E1\]{
   --tw-border-opacity: 1;
   border-bottom-color: rgb(97 71 225 / var(--tw-border-opacity, 1));
@@ -1028,7 +1033,7 @@ video {
 }
 
 .bg-\[\#F9F9F\]{
-  background-color: #F9F9F;
+  background-color: #F9F9F9;
 }
 
 .bg-black\/15{
