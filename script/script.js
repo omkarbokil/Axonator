@@ -66,12 +66,21 @@ let toolbarCloseBtn = document.getElementById('toolbarCloseBtn');
 
 if(toolbarOption){
     toolbarOption.addEventListener('click', () => {
-        toolbar.classList.toggle('hidden');
+        toolbar.classList.toggle('-left-[120%]');
+        toolbar.classList.toggle('left-5');
     })
 
     toolbarCloseBtn.addEventListener('click', () => {
-        toolbar.classList.toggle('hidden');
+        toolbar.classList.toggle('-left-[120%]');
+        toolbar.classList.toggle('left-5');
     })
+    // toolbarOption.addEventListener('click', () => {
+    //     toolbar.classList.toggle('hidden');
+    // })
+
+    // toolbarCloseBtn.addEventListener('click', () => {
+    //     toolbar.classList.toggle('hidden');
+    // })
 }
 
 let formSettingOption = document.getElementById('formSettingOption');

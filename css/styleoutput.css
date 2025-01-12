@@ -664,6 +664,14 @@ video {
   top: 2rem;
 }
 
+.left-\[\]{
+  left: ;
+}
+
+.-left-\[120\%\]{
+  left: -120%;
+}
+
 .z-10{
   z-index: 10;
 }
@@ -1033,7 +1041,7 @@ video {
 }
 
 .bg-\[\#F9F9F\]{
-  background-color: #F9F9F9;
+  background-color: #F9F9F;
 }
 
 .bg-black\/15{
@@ -1430,6 +1438,10 @@ video {
 
   .sm\:top-\[4rem\]{
     top: 4rem;
+  }
+
+  .sm\:left-5{
+    left: 1.25rem;
   }
 
   .sm\:block{
